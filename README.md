@@ -17,10 +17,10 @@ stored.
 5. Map the IP address with its MAC address and return the MAC address to client.
 P
 ## PROGRAM - ARP
-  s = socket.socket()
-  s.bind(('localhost', 8000))
-  s.listen(5)
-  print("Server is listening...")
+    s = socket.socket()
+    s.bind(('localhost', 8000))
+    s.listen(5)
+    print("Server is listening...")
 
   c, addr = s.accept()
   print(f"Connection established with {addr}")
