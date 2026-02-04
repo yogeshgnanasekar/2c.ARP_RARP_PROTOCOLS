@@ -34,7 +34,7 @@ P
     ip = c.recv(1024).decode()
 
     if not ip:  
-        break
+         break
 
     try:
         mac = address[ip]  # Get the MAC address for the IP
