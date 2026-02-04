@@ -22,12 +22,12 @@ P
      s.listen(5)
      print("Server is listening...")
 
-c, addr = s.accept()
-print(f"Connection established with {addr}")
+     c, addr = s.accept()
+    print(f"Connection established with {addr}")
 
-address = {
-    "165.165.80.80": "6A:08:AA:C2",
-    "165.165.79.1": "8A:BC:E3:FA"
+     address = {
+        "165.165.80.80": "6A:08:AA:C2",
+         "165.165.79.1": "8A:BC:E3:FA"
 }
 
 while True:
